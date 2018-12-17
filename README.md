@@ -2,11 +2,11 @@
 
 HL7 testing utility :
 
-It is a generic Hl7 Testing utility using spring boot . It post HL7 message to Camel queue and waits for message response for configured time or parameter timeout.
+It is a generic Hl7 Testing utility using spring boot . It posts HL7 message to Camel queue and waits for message response for configured time or parameter timeout.
 
 
     
-Example camel client code to test HL7 camel application using below parameters 
+Example Camel client code to test HL7 camel application using below parameters 
 
 host : camel queue host name
 port : camel queue port
