@@ -7,11 +7,10 @@ It is a generic Hl7 Testing utility using spring boot . It posts HL7 message to 
 
     
 Example Camel client code to test HL7 camel application using below parameters 
-
-host : camel queue host name
-port : camel queue port
-sync : true or false
-timeout : waiting time for exchange 
+        hostname : Camel queue host name
+        port : Camel queue port
+        sync : true or false for synchronous request or asynchronous request
+        timeout : Waiting time for exchange 
    
 
       String camelUrl = "mina2:tcp://" + host + ":" + port + "?sync=" + sync + "&codec=#hl7codec&timeout="
